@@ -1,0 +1,41 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: cadetblue;
+}
+
+h2 {
+  color: white;
+}
+
+#answer {
+  height: 5%;
+  width: 200px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#btn {
+  margin: 5px;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+}
+
+p {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#copyright {
+  margin-top: 150px;
+}
