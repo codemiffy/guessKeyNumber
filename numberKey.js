@@ -4,10 +4,11 @@ const btn = document.getElementById("btn")
 const h2 = document.getElementById("quest")
 const bodyElemen = document.body
 
+let keyNumber = Math.floor(Math.random() * 1000) + 1
+
 btn.addEventListener("click", checkNumberKey)
 
 function checkNumberKey() {
-  let keyNumber = 593
   let answerNumber = parseInt(answer.value)
 
   if (isNaN(answerNumber) || answerNumber < 1 || answerNumber > 1000) {
